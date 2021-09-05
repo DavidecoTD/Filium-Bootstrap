@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-size: 200%;
+}
+#logo {
+    width: 150px;
+    margin-right: 300px ;
+}
+
+
+.menu-flex {
+    display: flex;
+    margin-left: 400px;
+    background-color:;
+    flex-wrap: nowrap;
+}
+.boton {
+    margin: auto;
+    padding: 10px;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+
+.boton a {
+    color: white;
+    text-decoration: none;
+
+}
+nav div:hover{
+    background-color: coral;
+}
+.copy-write {
+    width: 300px;
+    padding: 50px;
+
+}
+.sub-copy{
+    margin-top: 20px;
+}
+.video{
+    padding: 50px;
+}
+.btn-container {
+    border-radius: 15px;
+    width: 90px;
+    margin-top: 20px;
+    background-color: coral;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-container a {
+    text-decoration:  none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.seccion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+    width: 200px;
+    margin: 30px 100px;
+    text-align: center;
+   
+}
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "copy"
+    "beneficios"
+    "garantia"
+    "reseñas"
+    "pie"
+    ;
+}
+
+header {
+    grid-area: header;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+}
+#copy {
+    grid-area: copy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#beneficios {
+    grid-area: beneficios;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#garantia {
+    grid-area: garantia;
+    margin: auto;
+}
+#reseñas {
+    grid-area: reseñas;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+footer {
+    grid-area: pie;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.formulario {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(207, 207, 207);
+}
+label {
+    padding: 10px;
+    
+
+}
+
+legend {
+    width: 300px;
+    padding: 10px;
+   
+
+}
+
+.ubicacion {
+
+}
+
+select {
+    padding: 5px;
+}
+input {
+    padding: 5px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+
+ul{
+    text-align: left;
+}
+
+
+.container .card img{
+    width: 330px;
+    height: 260px;
+}
