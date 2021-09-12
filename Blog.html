@@ -4,72 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://file.myfontastic.com/xnqY54htLAmKSpCGXW9Aba/icons.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>  
     <title>Productos</title>
 </head>
 <body>
-    <main id = "grilla">
-        <header>
-             <img id ="logo" src="Multimedia/Logo.png" alt ="logo">
-             <nav class = "menu-flex">
-                     <div class="boton"><a href="index.html">Home</a></div>
-                     <div class="boton" ><a href="Productos.html">Productos</a></div>
-                     <div class="boton" ><a href="Blog.html">Blog</a></div>
-                     <div class="boton" ><a href="Contacto.html">Contacto</a></div>
-             </nav>
-        </header>
-        <section>
-            <h1 class="title">Lo último en proyectores</h1>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-               
-                <div class="card">
-                    <img src="Multimedia/Entrada_1.jpg">
-                    <h4>¿QUÉ SON LOS LÚMENES EN UN PROYECTOR?</h4>
-                    <p>  Tus compañeros te dicen que veas cuantos lúmenes tiene el proyector antes de comprarlo, pero tu realmente no sabes a que se refieren… Entonces ¿para qué son y para qué sirven?</p>
-                    <a href="#">Leer articulo</a>
+                <img src="Multimedia/Logo.png" alt="Filium-logo" width="150">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="Contacto.html" >Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-                
+            </div>
+        </nav>
+    </header>
+    <div class="container p-4">
+        <h1 class="text-center p-4">Lo último en proyectores</h1>
+        <div class="row">
+            <div class="col-sm-4">
                 <div class="card">
-                    <img src="Multimedia/Entrada_2.jpg">
-                    <h4>¿QUÉ TIPO DE ECRAN O PANTALLA DE PROYECCIÓN ELEGIR PARA TU SALA DE CINE EN CASA?</h4>
-                    <p>Estás buscando un Ecran o Pantalla de Proyección, pero no sabes cual modelo elegir… Entonces, ¿cuál modelo te recomendamos?</p>
-                    <a href="#">Leer articulo</a>
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_1.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>¿QUÉ SON LOS LÚMENES EN UN PROYECTOR?</h4>
+                        <p>  Tus compañeros te dicen que veas cuantos lúmenes tiene el proyector antes de comprarlo, pero tu realmente no sabes a que se refieren… Entonces ¿para qué son y para qué sirven?</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
                 </div>
-                
+            </div>
+            <div class="col-sm-4">
                 <div class="card">
-                    <img src="Multimedia/Entrada_3.jpg">
-                    <h4>PROYECTOR LED VS PROYECTOR DE DLP ¿EN QUÉ SE DIFERENCIAN?</h4>
-                    <p> Deseas adquirir un proyector, pero no sabes si escoger uno de tecnología LED o DLP… ¿Cuál es la diferencia?</p>
-                    <a href="#">Leer articulo</a>
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_2.jpg" class="img-fluid" width="400">
+                    </div>
+                    <div class="card-body">
+                        <h4>¿QUÉ TIPO DE ECRAN O PANTALLA DE PROYECCIÓN ELEGIR PARA TU SALA DE CINE EN CASA?</h4>
+                        <p>Estás buscando un Ecran o Pantalla de Proyección, pero no sabes cual modelo elegir</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-sm-4">
                 <div class="card">
-                    <img src="Multimedia/Entrada_4.jpg">
-                    <h4>¿CÓMO CONVERTIR UN PROYECTOR EN UN PROYECTOR INTERACTIVO?</h4>
-                    <p>Deseas hacer tus clases más dinámicas con una Pizarra Digital Interactiva, ¿pero no sabes cómo se usa ni dónde adquirirla?, tenemos la solución para ti?</p>
-                    <a href="#">Leer articulo</a>
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_3.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>PROYECTOR LED VS PROYECTOR DE DLP ¿EN QUÉ SE DIFERENCIAN?</h4>
+                        <p> Deseas adquirir un proyector, pero no sabes si escoger uno de tecnología LED o DLP… ¿Cuál es la diferencia?</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
                 </div>
-                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
                 <div class="card">
-                    <img src="Multimedia/Entrada_5.jpg">
-                    <h4>¿QUE PROYECTORES SON COMPATIBLES PARA VINCULAR AL CELULAR?</h4>
-                    <p>Buscas conectar tu celular al proyector, pero no consigues un proyector con esta función… Entonces ¿qué proyectores se pueden conectar al celular?</p>
-                    <a href="#">Leer articulo</a>
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_4.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>¿CÓMO CONVERTIR UN PROYECTOR EN UN PROYECTOR INTERACTIVO?</h4>
+                        <p>Deseas hacer tus clases más dinámicas con una Pizarra Digital Interactiva, ¿pero no sabes cómo se usa ni dónde adquirirla?, tenemos la solución para ti?</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
                 </div>
-                
+            </div>
+            <div class="col-sm-4">
                 <div class="card">
-                    <img src="Multimedia/Entrada_6.jpg">
-                    <h4>TODO LO QUE DEBES SABER SOBRE BYINTEK P10</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer articulo</a>
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_5.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>¿QUE PROYECTORES SON COMPATIBLES PARA VINCULAR AL CELULAR?</h4>
+                        <p>Buscas conectar tu celular al proyector, pero no consigues un proyector con esta función… Entonces ¿qué proyectores se pueden conectar al celular?</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
                 </div>
-         
-        <footer>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class = "card-header">
+                        <img src="Multimedia/Entrada_6.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>TODO LO QUE DEBES SABER SOBRE BYINTEK P10</h4>
+                        <p>Cononce el mejor proyector dlp calidad precio, mas de 1000 lumenes ansi , sonido dolby atmos,  resolución Full Hd,  2000 en relanción de contraste y 120 pulgadas de capacidad</p>
+                    </div>
+                    <div class="card-footer text-center"> 
+                        <a href="#" class="btn btn-warning text-center">Leer articulo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
  
+    <footer class = "bg-dark text-white">
+        <div class="container">
+            <nav class="row">
+            <ul class="col-sm-4 list-unstyled p-4">
+            <h6 class="font-weight-bold" >Contactanos</h6>
+            <li>964780579</li>
+            <li>Servicio@filium.pe</li>
+            <li>Av Peru 123</li>
+            </ul>
+            <ul class="col-sm-4 list-unstyled p-4">
+            <h6 class="font-weight-bold">Enterate primero de nuestras ofertas especiales</h6>
+            <div class="container bg-dark text-white mt-4 pb-4" >
+                <form class="d-flex">
+                    <div class="col-6">
+                    <input type="email" class="form-control" id="validationCustom01" value="Correo electrónico" required>
+                    <div class="valid-feedback">
+                        se ve bien!
+                    </div>
+                    </div>  
+                    <div class="col-6">
+                    <button class="btn btn-warning" type="submit">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+            </ul>
+            <ul class="col-sm-4 list-unstyled p-4 ">
+                <h6 class="font-weight-bold">Redes sociales</h6>
+                <li class="d-flex pt-2 redes justify-content-between">
+        
+                <a href="https://business.facebook.com/filium360/?business_id=759975064170946" class="text-reset">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/filium360/?hl=es-la" class="text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC5UGkF9-9KigcsxbWlTyQ8g/videos" class="text-reset" >
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com/DavidecIng" class="text-reset" >
+                    <i class="fab fa-twitter"></i>
+                </a>
+                </li>
+            </ul>
+            </nav>    
+        </div>
         </footer>
-    </main>
 </body>
 </html>

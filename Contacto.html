@@ -7,36 +7,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <title>Contactanos</title>
 </head>
 <body>
     <header>
-        <img id ="logo" src="Multimedia/Logo.png" alt ="logo">
-        <nav class = "menu-flex">
-                <div class="boton"><a href="index.html">Home</a></div>
-                <div class="boton" ><a href="Productos.html">Productos</a></div>
-                <div class="boton" ><a href="Blog.html">Blog</a></div>
-                <div class="boton" ><a href="Contacto.html">Contacto</a></div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img src="Multimedia/Logo.png" alt="logo" width="150">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="Contacto.html" >Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
    </header>
     <section>
-        <h1 class="title">Contactanos</h1>
-        <div class="container bg-dark text-white mt-4" >
+        <h1 class="text-center" >Contactanos</h1>
+        <div class="container bg-dark text-white mt-4 pb-4" >
             <form class="row g-3 needs-validation " novalidate>
                 <div class="col-md-4">
                   <label for="validationCustom01" class="form-label">Nombre</label>
                   <input type="text" class="form-control" id="validationCustom01" value="David" required>
                   <div class="valid-feedback">
-                    Looks good!
+                    se ve bien!
                   </div>
                 </div>
                 <div class="col-md-4">
                   <label for="validationCustom02" class="form-label">Apellidos</label>
                   <input type="text" class="form-control" id="validationCustom02" value="Fernandez" required>
                   <div class="valid-feedback">
-                    Looks good!
+                    se ve bien!
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -80,12 +96,12 @@
                       Acepte terminos y condiciones
                     </label>
                     <div class="invalid-feedback">
-                      You must agree before submitting.
+                      Debes estar de acuerdo antes de enviar.
                     </div>
                   </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Enviar formulario</button>
+                  <button class="btn btn-warning" type="submit">Enviar formulario</button>
                 </div>
               </form>
         </div>
